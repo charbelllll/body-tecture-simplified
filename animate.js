@@ -6,7 +6,7 @@ import { RhinoCompute } from 'https://cdn.jsdelivr.net/npm/compute-rhino3d@0.13.
 import { Rhino3dmLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examples/jsm/loaders/3DMLoader.js'
 
 
-const definitionName = 'CLOTH_6'
+const definitionName = 'CLOTH_7'
 
 // Set up sliders
 const PINCH_RADIUS_slider = document.getElementById('PINCH_RADIUS')
