@@ -31,55 +31,51 @@
 
 <!--necklace -->
             <div><h4>NECKLACE </h4></div>
-            <div><label for="RH_IN:PINCH_RADIUS">Pinch radius</label></div>
-            <div> <input type="range" id="RH_IN:PINCH_RADIUS" min="0.02" max="0.04" value="0.04" step="0.01" class="slider"> </div>
-            <div><label for="RH_IN:FALLOFF">Falloff</label></div>
-            <div> <input type="range" id="RH_IN:FALLOFF" min="0.5" max="0.8" value="0.8" step="0.1" class="slider"> </div>
+            <div><label for="PINCH_RADIUS">Pinch radius</label></div>
+            <div> <input type="range" id="PINCH_RADIUS" min="0.02" max="0.04" value="0.04" step="0.01" class="slider"> </div>
+            <div><label for="FALLOFF">Falloff</label></div>
+            <div> <input type="range" id="FALLOFF" min="0.5" max="0.8" value="0.8" step="0.1" class="slider"> </div>
 
 <!--dress -->
             <div><h4>DRESS</h4></div>
-            <div><label for="RH_IN:MIN_SCALE">Maximum scale</label></div>
-            <div> <input type="range" id="RH_IN:MIN_SCALE" min="5" max="10" value="10" step="1" class="slider"> </div>
-            <div><label for="RH_IN:MAX_SCALE">Minimum scale</label></div>
-            <div> <input type="range" id="RH_IN:MAX_SCALE" min="55" max="65" value="65" step="1" class="slider"> </div>
-            <div><label for="RH_IN:SMOOTHNESS_1">Smoothness</label></div>
-            <div> <input type="range" id="RH_IN:SMOOTHNESS_1" min="1" max="3" value="3" step="1" class="slider"> </div>
+            <div><label for="MIN_SCALE">Maximum scale</label></div>
+            <div> <input type="range" id="MIN_SCALE" min="5" max="10" value="10" step="1" class="slider"> </div>
+            <div><label for="MAX_SCALE">Minimum scale</label></div>
+            <div> <input type="range" id="MAX_SCALE" min="55" max="65" value="65" step="1" class="slider"> </div>
+            <div><label for="SMOOTHNESS_1">Smoothness </label></div>
+            <div> <input type="range" id="SMOOTHNESS_1" min="1" max="3" value="3" step="1" class="slider"> </div>
             
 <!--bracelet -->
             <div><h4>BRACELET</h4></div>
-            <div><label for="RH_IN:SMOOTHNESS_2">Smoothness</label></div>
-            <div> <input type="range" id="RH_IN:SMOOTHNESS_2" min="1" max="3" value="1" step="1" class="slider"> </div>
+            <div><label for="SMOOTHNESS_2">Smoothness  </label></div>
+            <div> <input type="range" id="SMOOTHNESS_2" min="1" max="3" value="1" step="1" class="slider"> </div>
   
   
 
 <!--checkboxes and other functions-->
             <div id="options"><h4>MORE OPTIONS</h4></div>
             <div id="checkbox-1">
-            <label for="RH_OUT:NECKLACE_POINTS">Show necklace points</label>
-            <input type="checkbox" id="RH_OUT:NECKLACE_POINTS"></div>
-            <label for="RH_OUT:DRESS_POINTS">Show dress points</label>
-            <input type="checkbox" id="RH_OUT:DRESS_POINTS"></div>
-            <div id="bracelet"><label for="RH_OUT:BRACELET_POINTS">Show bracelet points</label>
-            <input type="checkbox" id="RH_OUT:BRACELET_POINTS"></div>
+            <label for="NECKLACE_POINTS">Show necklace points</label>
+            <input type="checkbox" id="NECKLACE_POINTS"></div>
+            <label for="DRESS_POINTS">Show dress points</label>
+            <input type="checkbox" id="DRESS_POINTS"></div>
+            <div id="bracelet"><label for=":BRACELET_POINTS">Show bracelet points</label>
+            <input type="checkbox" id=":BRACELET_POINTS"></div>
              <div id="checkbox-2">
-            <label for="RH_OUT:BODY">Show body</label>
-            <input type="checkbox" id="RH_OUT:BODY"></div>
-            <div id="downlaod">
-            <label for="RH_IN:downlaod">Downlaod</label>
-            <input type="button" id="RH_IN:downlaod"></div>
+            <label for="BODY">Show body</label>
+            <input type="checkbox" id="BODY"></div>
+           
 
 <!--price tag-->
 <div id="price"><h4>PRICE</h4></div>
-<div><label for="RH_OUT:TOTAL_COST"></label></div>
+<div><label for="TOTAL_COST"></label></div>
 
 
 
 <!-- Uncomment to add a spinner -->
 
 <div id="loader"></div>
-        <script type="module" src="./animate.js"></script>
+        <script type="module" src="animate.js"></script>
 	</body>
 </html>
 
-
-<script src="animate.js"></script>

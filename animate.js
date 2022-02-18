@@ -33,9 +33,6 @@ const SMOOTHNESS_2_slider = document.getElementById('SMOOTHNESS_2')
 SMOOTHNESS_2_slider.addEventListener('mouseup', onSliderChange, false)
 SMOOTHNESS_2_slider.addEventListener('touchend', onSliderChange, false)
 
-
-
-
 const loader = new Rhino3dmLoader()
 loader.setLibraryPath('https://cdn.jsdelivr.net/npm/rhino3dm@0.15.0-beta/')
 
@@ -164,7 +161,7 @@ function init() {
 
     // add a directional light
     const directionalLight = new THREE.DirectionalLight(0xffffff)
-    directionalLight.intensity = 2
+    directionalLight.intensity = 1
     scene.add(directionalLight)
 
     const ambientLight = new THREE.AmbientLight()
@@ -191,7 +188,7 @@ function meshToThreejs(mesh, material) {
     return new THREE.Mesh(geometry, material)
 }
     // load materials and cube maps
-    let material
+    //let material
 
     // load a pbr material
     //const tl = new THREE.TextureLoader()
